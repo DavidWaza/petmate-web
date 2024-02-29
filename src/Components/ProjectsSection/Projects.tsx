@@ -19,6 +19,7 @@ const ProjectSection = () => {
             alt="love-dogs"
             width={500}
             height={500}
+            className="w-full"
           />
           <div className="flex justify-between my-3">
             <div>
@@ -40,7 +41,7 @@ const ProjectSection = () => {
             alt="love-dogs"
             width={500}
             height={500}
-            className="rounded-ss-[60px]"
+            className="rounded-ss-[60px] w-full"
           />
           <div className="flex justify-between my-3">
             <div>
@@ -62,7 +63,7 @@ const ProjectSection = () => {
             alt="love-dogs"
             width={500}
             height={500}
-            className="rounded-ee-[60px]"
+            className="rounded-ee-[60px] w-full"
           />
           <div className="flex justify-between my-3">
             <div>

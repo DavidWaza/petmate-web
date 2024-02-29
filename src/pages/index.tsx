@@ -11,22 +11,23 @@ import ProjectSection from "@/Components/ProjectsSection/Projects";
 import MobileSection from "@/Components/MobileSection/MobileSection";
 import Blog from "@/Components/Blog/Blog";
 
-
 export default function Home() {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
   const isMobile = useMediaQuery({ query: "(max-width: 760px)" });
 
   return (
-    <main>
-      <>{isTabletOrMobile ? <div></div> : <DesktopHeader />}</>
-      <Hero />
-      <AboutSection />
-      <CareSection />
-      <GroomSection />
-      <GetHelpSection />
-      <ProjectSection />
-      <MobileSection />
-      <Blog />
-    </main>
+    <>
+      {isTabletOrMobile ? <div></div> : <DesktopHeader />}
+      <main>
+        <Hero />
+        <AboutSection />
+        <CareSection />
+        <GroomSection />
+        <GetHelpSection />
+        <ProjectSection />
+        <MobileSection />
+        <Blog />
+      </main>
+    </>
   );
 }

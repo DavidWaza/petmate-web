@@ -15,7 +15,7 @@ const BlogCards: FC<CardCurveProps> = (props) => {
           alt="pic"
           width={500}
           height={500}
-          className="rounded-md"
+          className="rounded-md w-full"
         />
         <h1 className="font-dmSans text-[#604533] my-2 text-xl  px-3">
           {props.header}

@@ -17,7 +17,7 @@ const CardCurve: FC<CardCurveProps> = (props) => {
           alt="pic"
           width={500}
           height={500}
-          className="rounded-t-[40px] rounded-b-none"
+          className="rounded-t-[40px] rounded-b-none w-full"
         />
         <p className="my-2">{props.children}</p>
         <div className="flex justify-between items-center py-5">
