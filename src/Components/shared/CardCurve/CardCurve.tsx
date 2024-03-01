@@ -11,7 +11,7 @@ interface CardCurveProps {
 const CardCurve: FC<CardCurveProps> = (props) => {
   return (
     <div className="group">
-      <div className="rounded-[40px] lg:h-[25rem] shadow-sm group-hover:shadow-none border border-[#FFF8F5]  p-3 group-hover:bg-[#FFF8F5] transition-all ease-in">
+      <div className="rounded-[40px]  shadow-sm group-hover:shadow-none border border-[#FFF8F5]  p-3 group-hover:bg-[#FFF8F5] transition-all ease-in">
         <Image
           src={props.imgSrc}
           alt="pic"

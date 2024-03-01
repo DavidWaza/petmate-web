@@ -19,7 +19,7 @@ const cardDetails = [
 ];
 const CareSection = () => {
   return (
-    <div className="lg:px-[20rem] px-10">
+    <div className="lg:px-[20rem] px-10 my-20">
       <h1 className="font-dmSans text-center text-[#604533] lg:text-3xl text-2xl px-20">
         Caring is the new Marketing
       </h1>

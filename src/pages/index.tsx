@@ -10,6 +10,7 @@ import GetHelpSection from "@/Components/GetHelpSection/GetHelp";
 import ProjectSection from "@/Components/ProjectsSection/Projects";
 import MobileSection from "@/Components/MobileSection/MobileSection";
 import Blog from "@/Components/Blog/Blog";
+import Footer from "@/Components/Footer/Footer";
 
 export default function Home() {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
@@ -27,6 +28,7 @@ export default function Home() {
         <ProjectSection />
         <MobileSection />
         <Blog />
+        <Footer />
       </main>
     </>
   );
