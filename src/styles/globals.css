@@ -31,7 +31,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.bg-about-hero {
+  background-image: url("/images/page-hero-about.png");
+  height: 50vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .font-dmSans {
   font-family: "DM Serif Display", serif;
   font-weight: 400;

@@ -31,7 +31,7 @@ const Button: FC<ButtonProps> = ({
           style={{ backgroundColor: bgColor }}
         >
           {children}
-          <BsArrowRight />
+          <BsArrowRight className="text-[#CDA274]" />
         </button>
       ) : (
         <button
