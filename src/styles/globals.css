@@ -39,6 +39,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
 .font-dmSans {
   font-family: "DM Serif Display", serif;
   font-weight: 400;

@@ -5,12 +5,12 @@ import Footer from "@/Components/Footer/Footer";
 
 export default function Document() {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
-  const isMobile = useMediaQuery({ query: "(max-width: 760px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 400px)" });
   return (
     <Html lang="en">
       <Head />
       <body>
-        {!isTabletOrMobile ? <div className="hidden"></div> : <DesktopHeader />}
+        {!isMobile ? <div className="hidden">{''}</div> : <DesktopHeader />}
         <Main />
         <NextScript />
         <Footer />
