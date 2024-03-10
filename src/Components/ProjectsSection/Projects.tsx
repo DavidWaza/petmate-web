@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const ProjectSection = () => {
   return (
-    <div className="lg:px-[20rem] px-10">
-      <h1 className="font-dmSans text-center text-[#604533] lg:text-3xl text-2xl px-20">
+    <div className="lg:px-[10rem] px-10">
+      <h1 className="font-dmSans lg:text-center text-[#604533] lg:text-3xl text-2xl lg:px-20">
         Follow Our Projects
       </h1>
-      <p className=" py-5 text-xl px-10 text-center">
+      <p className=" py-5 lg:text-xl lg:text-center text-left">
         Its a long established fact that a reader will be distracted by the
         lorem ipsum text. i proise this is dummy
       </p>

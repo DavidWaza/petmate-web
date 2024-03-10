@@ -8,6 +8,7 @@ interface ButtonProps {
   textColor: string;
   children: ReactNode;
   icon: boolean;
+  onClick?:() => void;
 }
 
 const Button: FC<ButtonProps> = ({
@@ -16,6 +17,7 @@ const Button: FC<ButtonProps> = ({
   textColor,
   children,
   icon = false,
+  onClick,
 }) => {
   return (
     <>
@@ -43,6 +45,7 @@ const Button: FC<ButtonProps> = ({
             }
           )}
           style={{ backgroundColor: bgColor }}
+          onClick={onClick}
         >
           {children}
         </button>

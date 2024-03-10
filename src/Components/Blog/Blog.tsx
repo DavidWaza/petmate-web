@@ -30,7 +30,7 @@ const blogDetails = [
 
 const Blog = () => {
   return (
-    <div className="lg:px-[20rem] px-10">
+    <div className="lg:px-[10rem] px-10">
       <div className="lg:flex justify-between items-center">
         <div>
           <p>You already know?</p>
@@ -39,7 +39,7 @@ const Blog = () => {
           </h1>
         </div>
         <Link href={"#"}>
-          <div className="border border-[#604533] rounded-2xl py-4 px-7 flex items-center gap-5 font-dmSans text-xl">
+          <div className="border border-[#604533] rounded-2xl py-4 px-7 flex justify-center items-center gap-5 font-dmSans text-xl my-2">
             View more
             <MdOutlineKeyboardArrowRight />
           </div>

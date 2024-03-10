@@ -33,15 +33,16 @@ const TestimonialCardsList: TestimonialCardsprops[] = [
         architecto ad quam dolore quibusdam earum.`,
   },
 ];
-const AboutUs = () => {
+
+export default function AboutUs() {
   return (
     <>
       <PageHero pageExt="About Us" />
-      <div className="my-20 lg:px-[10rem] px-10">
-        <h1 className="text-[#604533] text-4xl text-center font-dmSans">
+      <div className="mt-20 lg:px-[10rem] px-10">
+        <h1 className="text-[#604533] text-2xl lg:text-4xl text-center font-dmSans">
           What you need to know about PetMate
         </h1>
-        <p className="text-xl leading-0 lg:text-2xl lg:leading-[40px] my-7">
+        <p className="text-md leading-0 lg:text-2xl lg:leading-[40px] my-7">
           Petmate is an organization affiliated with veterinary clinics, to
           promote and aid pet care. This organization improves the general
           health of our furry friends, by creating easy to veterinary clinics
@@ -55,17 +56,17 @@ const AboutUs = () => {
             alt=""
             width={400}
             height={400}
-            className="my-7 w-2/3"
+            className="my-7 lg:w-2/3"
           />
         </div>
       </div>
-      <div className="lg:px-[10rem] px-10">
+      <div className="lg:px-[10rem] px-10 mt-10">
         <div className="grid lg:grid-cols-2 gap-10 my-10">
-          <div className="pt-20">
-            <h1 className="font-dmSans text-[#604533] lg:text-3xl text-2xl">
+          <div className="lg:mt-10">
+            <h1 className="text-[#604533] text-2xl lg:text-4xl font-dmSans">
               What we do
             </h1>
-            <p className=" py-5 text-xl ">
+            <p className=" py-5 text-md leading-0 lg:text-2xl">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
               quos atque eum voluptate, alias, nihil assumenda ipsa, neque
               delectus natus debitis tempore provident voluptates. Pariatur
@@ -93,10 +94,10 @@ const AboutUs = () => {
             />
           </div>
           <div className="pt-20">
-            <h1 className="font-dmSans text-[#604533] lg:text-3xl text-2xl">
+            <h1 className="text-[#604533] text-2xl lg:text-4xl font-dmSans">
               The End Result
             </h1>
-            <p className=" py-5 text-xl ">
+            <p className=" py-5 text-md leading-0 lg:text-2xl ">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
               quos atque eum voluptate, alias, nihil assumenda ipsa, neque
               delectus natus debitis tempore provident voluptates. Pariatur
@@ -107,12 +108,13 @@ const AboutUs = () => {
             </Button>
           </div>
         </div>
-        <div className="my-10">
-          <div className="w-full rounded-3xl bg-[#F4F0EC]">
-            <h1 className="font-dmSans text-[#604533] text-center py-10 lg:text-3xl text-2xl">
+      </div>
+      <div className="my-10">
+          <div className="w-full rounded-3xl bg-[#F4F0EC] lg:px-[10rem] px-5">
+            <h1 className="font-dmSans text-[#604533] text-center pt-10 lg:text-3xl text-2xl">
               What the people think <br /> About us
             </h1>
-            <div className="grid lg:grid-cols-3 gap-5 p-10">
+            <div className="grid lg:grid-cols-3 gap-5 py-10">
               {TestimonialCardsList.map((list, index) => (
                 <TestimonialCards
                   key={index}
@@ -126,7 +128,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="my-10">
+        <div className="my-10 lg:px-[10rem] px-10">
           <h1 className="font-dmSans  lg:text-5xl text-2xl text-center">
             Creative project? Let&apos;s have <br /> a productive talk.
           </h1>
@@ -157,8 +159,6 @@ const AboutUs = () => {
             </Button>
           </div>
         </div>
-      </div>
     </>
   );
-};
-export default AboutUs;
+}
